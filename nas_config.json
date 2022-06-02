@@ -1,0 +1,7 @@
+{
+    "ebert" : {
+        "movies" : "\\\\192.168.0.32\\Movies",
+        "music" : "\\\\192.168.0.32\\Music"
+    },
+    "ffmpeg" : "C:\\Users\\justi\\Downloads\\ffmpeg-4.4-full_build\\bin\\ffmpeg.exe"
+}
