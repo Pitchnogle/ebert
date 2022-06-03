@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #
-# This script uses `ffmpeg` to convert mp4 videos into mkv
+# This script prints out the first mp4 movie found on the NAS
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 import os, sys, subprocess, random, glob, json, time
 
 def convert(cmd, input, output):

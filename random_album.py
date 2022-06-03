@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 #
 # This selects a random album from the NAS
+#
+# On the NAS, music data is organized in the form:
+# <music path>/<artist>/<title>
+# 
+# On Windows 10, an example folder name would be:
+# '\\192.168.0.32\Music//Steve Martin\Let's Get Small\'
+#
+# Example Output:
+# > python .\random_album.py      
+# Various Artists - The Best Of Bond... James Bond
+# > python .\random_album.py
+# Iron Maiden - Killers
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 import os, glob, json
 from random import randint
 

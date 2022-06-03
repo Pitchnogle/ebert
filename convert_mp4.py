@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 #
 # This script uses `ffmpeg` to convert mp4 videos into mkv
+#
+# On the NAS, movies are stored using the Plex format:
+# <movie path>//<movie title>\<movie title>.<ext>
+#
+# On Windows 10, an example folder name would be:
+# \\192.168.0.32\Movies//Top Gun (1986)\Top Gun (1986).mp4
+#
+# This program will use ffmpeg to convert the mp4 files into an mkv
+# file which seems to run better on some playback devices.
+#
+# Usage:
+# > python convert_mp4.py 1
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 import os, sys, subprocess, random, glob, json, time
 
 def convert(cmd, input, output):
@@ -51,6 +65,8 @@ def run(argv):
   mp4_movies.sort()
   # print('mp4_movies =', mp4_movies)
   
+  # TODO -- handle case if there aren't argv mp4 files to convert!
+
   for i in range(int(argv)):
     process(i, movies, mp4_movies, ffmpeg)
 

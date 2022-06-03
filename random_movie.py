@@ -1,6 +1,22 @@
 #!/usr/bin/env python3
 #
 # This picks # random movies from the NAS for indecisive people
+# 
+# Sometimes it's hard to choose a movie to watch. This program randomly
+# chooses N movies from the NAS. The selection is random within a year
+# but the year chosen is weighted based on how many movies exist in a
+# given year. Essentially, this means more recent movies will have a
+# higher probability to be chosen since they are more likely to be in
+# a collection that older movies.
+#
+# Example Output:
+# > python .\random_movie.py 4
+# 0: Cool World (1992)
+# 1: Spaceballs (1987)
+# 2: Gun Crazy (1950)
+# 3: Roxanne (1987)
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 import os, glob, json, sys
 from random import randint
 

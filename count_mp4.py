@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 #
 # This counts the number of mp4 movies on the NAS
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 import os, glob, json
 
 def main():

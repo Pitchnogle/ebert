@@ -37,7 +37,9 @@
 # │       file2.avi
 # │
 # └───file3
-#         file3.avi 
+#         file3.avi
+#
+# Written by: Justin Hadella (pitchnogle@gmail.com)
 
 import os, sys, shutil
 
