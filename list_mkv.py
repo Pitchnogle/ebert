@@ -22,7 +22,7 @@ def main():
 
   for i in range(len(mkv_movies)):
     # Title in form: 'movie title (yyyy)'
-    title = os.path.basename(movies[i]).split('.')[0]
+    title = os.path.basename(mkv_movies[i]).split('.')[0]
     # print('title =', title)
 
     # Extract the yyyy
