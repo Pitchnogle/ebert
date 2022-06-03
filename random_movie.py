@@ -7,7 +7,7 @@
 # but the year chosen is weighted based on how many movies exist in a
 # given year. Essentially, this means more recent movies will have a
 # higher probability to be chosen since they are more likely to be in
-# a collection that older movies.
+# a collection than older movies.
 #
 # Example Output:
 # > python .\random_movie.py 4
