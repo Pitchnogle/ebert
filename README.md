@@ -14,9 +14,9 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
 - [list_mp4](list_mp4.py)  
   Lists all the mp4 movies on the NAS
 - [movieprep](movieprep.py)  
-  Creates folder for each file and copies file into said folder. In other words, if there is a
-  folder contains lots of files, this makes it easy to create folders for each file and place
-  the file into its corresponding folder. _Useful for things like Plex._
+  Creates folder for each file within and then moves the file into its corresponding folder.
+  This is useful to easily get a folder of movie files into an folder structure which is
+  compaible with Plex. _Could use a better name..._
 - [next_mp4](next_mp4.py)  
   Prints out the first mp4 movie found on the NAS
 - [random_movie](random_movie.py)  
