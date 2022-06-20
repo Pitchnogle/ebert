@@ -25,7 +25,7 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
 ## Music Tools
 
 - [flac2aac](flac2aac.bat)  
-  Window BAT file converts a FLAC audio file into AAC audio file
+  Window BAT file converts a FLAC audio file into an AAC audio file
 - [random_album](random_album.py)  
   Selects a random album from the NAS
 - [sync_music](sync_music.bat)  

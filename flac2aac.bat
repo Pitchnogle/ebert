@@ -1,6 +1,6 @@
 :: Script to convert a FLAC file into AAC file for portable devices
 ::
-:: iPods can't play FLAC fils, others can't play ALAC files...
+:: iPods can't play FLAC files, others can't play ALAC files...
 :: However, most modern portables can play AAC files no problem.
 ::
 :: Written by: Justin Hadella (pitchnogle@gmail.com)
