@@ -55,7 +55,7 @@ def main():
             os.mkdir(album)
         
         # If the destination file doesn't exists or is older than the source convert it
-        if not os.path.exists(dst_file):# or (os.path.getctime(dst_file) < os.path.getctime(src_file)):
+        if not os.path.exists(dst_file) or (os.path.getctime(dst_file) < os.path.getctime(src_file)):
             # Display the file being converted
             print('%d : %s' % (conversion_count, rel_aac_path))
             conversion_count += 1

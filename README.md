@@ -33,4 +33,4 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
 - [sync2aac.py](sync2aac.py)  
   Synchronizes contents of Sony Music Center (containing FLAC files) to another folder
   on PC with converted AAC files. Existing AAC files will be updated if source files
-  is newer.
+  are newer.
