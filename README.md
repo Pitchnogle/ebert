@@ -14,9 +14,9 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
 - [list_mp4](list_mp4.py)  
   Lists all the mp4 movies on the NAS
 - [movieprep](movieprep.py)  
-  Creates folder for each file within and then moves the file into its corresponding folder.
-  This is useful to easily get a folder of movie files into an folder structure which is
-  compaible with Plex. _Could use a better name..._
+  Creates a folder for each file within and then moves the file into it. This is useful 
+  to easily get a folder of movie files into an folder structure which is compatible with
+  Plex. _Could use a better name..._
 - [next_mp4](next_mp4.py)  
   Prints out the first mp4 movie found on the NAS
 - [random_movie](random_movie.py)  
@@ -25,8 +25,8 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
 ## Music Tools
 
 - [flac2aac](flac2aac.bat)  
-  Window BAT file converts a FLAC audio file into an AAC audio file
+  Converts a FLAC audio file into an AAC audio file
 - [random_album](random_album.py)  
   Selects a random album from the NAS
 - [sync_music](sync_music.bat)  
-  A Windows BAT to synchronize contents of Sony Music Center to the NAS to keep things up to date
+  Synchronizes contents of Sony Music Center to the NAS to keep things up to date
