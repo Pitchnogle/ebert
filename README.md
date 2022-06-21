@@ -30,3 +30,7 @@ A collection of utility programs for use with NAS hosting movies, albums, etc.
   Selects a random album from the NAS
 - [sync_music](sync_music.bat)  
   Synchronizes contents of Sony Music Center to the NAS to keep things up to date
+- [sync2aac.py](sync2aac.py)  
+  Synchronizes contents of Sony Music Center (containing FLAC files) to another folder
+  on PC with converted AAC files. Existing AAC files will be updated if source files
+  is newer.
