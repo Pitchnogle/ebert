@@ -44,7 +44,8 @@ def process(i, movies_path, movies, ffmpeg):
   convert(ffmpeg, input, output)
   end = time.time()
   
-  print('%2d:\t(%.2f s)\t%s' % (i, end - start, os.path.basename(output).split('.')[0]))
+  # print('%2d:\t(%.2f s)\t%s' % (i, end - start, os.path.basename(output).split('.')[0]))
+  print('%2d:\t(%.2f s)\t%s' % (i, end - start, movie))
 
 def run(argv):
   # NAS config stores info about the server
