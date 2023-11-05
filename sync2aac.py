@@ -19,7 +19,7 @@ def main():
     # print('src_dir =', src_dir)
 
     # Get path to aac files
-    dst_dir = os.path.join('C:\\Users\\justi\\Music\\music_center_aac')
+    dst_dir = os.path.join('C:\\Users\\justi\\Music\\aac_archive')
     # print('dst_dir =', dst_dir)
 
     # Get list of flac files
